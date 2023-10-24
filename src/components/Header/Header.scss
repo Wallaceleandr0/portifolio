@@ -1,0 +1,112 @@
+@import "../variables.scss";
+
+.Header {
+    font-family: $font-default;
+    background-color: $bg-color;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    .Header-logo {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        padding: 10px;
+        gap: 17px;
+        .Header-img-a {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 8px;
+            margin-left: 10px;
+        }
+        img {
+            animation: App-logo-spin infinite 20s linear;
+            max-width: 50px;
+        }
+        a {
+            display: inline;
+            text-decoration: none;
+            font-size: 27px;
+            color: $primary-color;
+            font-weight: 500;
+        }
+    }
+    .Header-ul {
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        margin-right: 120px;
+        display: none;
+        li {
+            list-style: none;
+            :hover {
+                color: $primary-color;
+            }
+                a {
+                text-decoration: none;
+                color: #fff;
+                }
+            }
+        :hover a {
+            text-underline-offset: 0.3em;
+            text-decoration: underline 2px;
+        }
+    }
+
+    @media(max-width: 890px) {
+        .Header-ul {
+            margin-right: 10px;
+        }
+    }
+
+    @media(max-width: 650px) {
+        flex-direction: column;
+        align-items: center;
+        .Header-logo {
+            width: 100%;
+            margin: auto;
+            justify-content: space-between;
+            .Header-menu {
+                cursor: pointer;
+                margin-right: 30px;
+                justify-content: space-between;
+                flex-direction: column;
+                display: flex;
+                gap: 3px;
+                min-height: 25px;
+                .line-menu {
+                    width: 28px;
+                    height: 3px;
+                    background-color: $primary-color;
+                }
+            }
+        }
+        .Header-ul {
+            margin-right: 0;
+            padding: 0;
+            width: 100%;
+            display: none;
+            flex-direction: column;
+            li {
+                display: flex;
+                align-items: center;
+                :hover {
+                    background-color: $primary-color;
+                    text-decoration: none;
+                    color: $bg-color;
+                }
+            
+                a {
+                    display: flex;
+                    justify-content: center;
+                    padding: 20px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

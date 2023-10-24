@@ -1,0 +1,70 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prata', serif;
+font-family: 'Raleway', sans-serif; */
+.Banner {
+  background-image: url("/public/banner.png");
+  background-size: cover;
+  background-position: right center;
+  padding-top: 70px;
+  min-height: 680px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 520px) {
+  .Banner {
+    min-height: 560px;
+  }
+}
+.Banner img {
+  max-width: 100%;
+  margin: 60px auto 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+@media (max-width: 520px) {
+  .Banner img {
+    margin: 20px auto 0 auto;
+  }
+}
+.Banner h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 20px;
+}
+@media (max-width: 400px) {
+  .Banner h3 {
+    font-size: 32px;
+  }
+}
+.Banner h3 span {
+  color: #FFFF80;
+}
+.Banner p {
+  font-size: 20px;
+  color: #fff;
+}
+@media (max-width: 400px) {
+  .Banner p {
+    font-size: 17px;
+  }
+}
+.Banner .Banner-box-img {
+  display: flex;
+  margin: 20px auto;
+  width: 180px;
+  justify-content: space-around;
+  align-items: center;
+}
+.Banner .Banner-box-img img {
+  border-radius: 0;
+  margin-top: 0;
+  width: 75px;
+  height: 80px;
+}
+.Banner .Banner-box-img #react {
+  animation: App-logo-spin infinite 20s linear;
+  width: 80px;
+}

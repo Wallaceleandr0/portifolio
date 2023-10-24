@@ -1,0 +1,113 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prata', serif;
+font-family: 'Raleway', sans-serif; */
+.Header {
+  font-family: "Poppins", sans-serif;
+  background-color: #282A37;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+.Header .Header-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  padding: 10px;
+  gap: 17px;
+}
+.Header .Header-logo .Header-img-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+  margin-left: 10px;
+}
+.Header .Header-logo img {
+  animation: App-logo-spin infinite 20s linear;
+  max-width: 50px;
+}
+.Header .Header-logo a {
+  display: inline;
+  text-decoration: none;
+  font-size: 27px;
+  color: #73B8CC;
+  font-weight: 500;
+}
+.Header .Header-ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 120px;
+  display: none;
+}
+.Header .Header-ul li {
+  list-style: none;
+}
+.Header .Header-ul li :hover {
+  color: #73B8CC;
+}
+.Header .Header-ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.Header .Header-ul :hover a {
+  text-underline-offset: 0.3em;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
+}
+@media (max-width: 890px) {
+  .Header .Header-ul {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .Header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Header .Header-logo {
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .Header .Header-logo .Header-menu {
+    cursor: pointer;
+    margin-right: 30px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    gap: 3px;
+    min-height: 25px;
+  }
+  .Header .Header-logo .Header-menu .line-menu {
+    width: 28px;
+    height: 3px;
+    background-color: #73B8CC;
+  }
+  .Header .Header-ul {
+    margin-right: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+  }
+  .Header .Header-ul li {
+    display: flex;
+    align-items: center;
+  }
+  .Header .Header-ul li :hover {
+    background-color: #73B8CC;
+    text-decoration: none;
+    color: #282A37;
+  }
+  .Header .Header-ul li a {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Header.css.map */
