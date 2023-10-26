@@ -9,6 +9,7 @@ font-family: 'Raleway', sans-serif; */
   transition: .4s ease;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .App {
