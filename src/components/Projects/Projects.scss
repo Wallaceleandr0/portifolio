@@ -1,0 +1,50 @@
+@import '../variables.scss';
+
+.Projects {
+    padding-bottom: 60px;
+    h2 {
+        padding-top: 30px;
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    &-line {
+        margin-top: 8px;
+        float: right;
+        background-color: #73B8CC;
+        min-height: 2px;
+        width: 60%;
+    }
+    &-container {
+        display: flex;
+        justify-content: center;
+        max-width: 1300px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 15px;
+        &-project {
+            border-radius: 5px;
+            width: 350px;
+            min-height: 200px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            background-size: cover;
+            :hover {
+                background-color: transparent;
+            }
+            &-bg-black {
+                background-color: rgba(0, 0, 0, 0.426);
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+            }
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+    #transparent {
+        color: transparent;
+    }
+}

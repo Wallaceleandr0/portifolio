@@ -1,5 +1,6 @@
 import About from "../About/About"
 import Technologies from "../Technologies/Technologies"
+import Projects from "../Projects/Projects"
 import "./Main.css"
 
 function Main() {
@@ -7,6 +8,7 @@ function Main() {
     <div className="Main">
         <About />
         <Technologies />
+        <Projects />
     </div>
   )
 }

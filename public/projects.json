@@ -1,0 +1,26 @@
+[
+    {
+        "img": "sites/site-1.png",
+        "link": "https://youtube.com"
+    },
+    {
+        "img": "sites/site-2.png",
+        "link": "https://youtube.com"
+    },
+    {
+        "img": "sites/site-3.png",
+        "link": "https://youtube.com"
+    },
+    {
+        "img": "sites/site-4.png",
+        "link": "https://youtube.com"
+    },
+    {
+        "img": "sites/site-5.png",
+        "link": "https://youtube.com"
+    },
+    {
+        "img": "sites/site-6.png",
+        "link": "https://youtube.com"
+    }
+]

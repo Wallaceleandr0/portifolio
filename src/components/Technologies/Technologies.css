@@ -2,10 +2,10 @@
   margin-top: 60px;
 }
 .Technologies h2 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 35px;
 }
-.Technologies .Technologies-img {
+.Technologies-img {
   justify-content: center;
   margin: 20px auto;
   max-width: 700px;
@@ -14,21 +14,28 @@
   flex-wrap: wrap;
   gap: 80px;
 }
-.Technologies .Technologies-img div {
+.Technologies-img div {
   position: relative;
   transition: transform 0.5s ease;
   height: auto;
   cursor: pointer;
 }
-.Technologies .Technologies-img div:hover {
+.Technologies-img div:hover {
   transform: translate(0, -10px);
 }
-.Technologies .Technologies-img p {
+.Technologies-img p {
   margin-bottom: 5px;
   font-size: 18px;
   font-weight: 400;
 }
-.Technologies .Technologies-img img {
+.Technologies-img img {
   width: 100px;
   float: right;
+}
+.Technologies-line {
+  margin-top: 100px;
+  margin-bottom: 7px;
+  background-color: #73B8CC;
+  min-height: 2px;
+  width: 60%;
 }/*# sourceMappingURL=Technologies.css.map */

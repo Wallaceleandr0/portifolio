@@ -1,10 +1,10 @@
 .Technologies {
     margin-top: 60px;
     h2 {
-        font-size: 30px;
+        font-size: 35px;
         margin-bottom: 35px;
     }
-    .Technologies-img {
+    &-img {
         justify-content: center;
         margin: 20px auto;
         max-width: 700px;
@@ -32,5 +32,12 @@
         }
         
         
+    }
+    &-line {
+        margin-top: 100px;
+        margin-bottom: 7px;
+        background-color: #73B8CC;
+        min-height: 2px;
+        width: 60%;
     }
 }

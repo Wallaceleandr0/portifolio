@@ -24,6 +24,7 @@ function Technologies() {
             </div>
         ))}
         </div>
+        <div className="Technologies-line"></div>
     </div>
   )
 }
