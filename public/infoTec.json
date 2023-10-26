@@ -1,0 +1,34 @@
+[
+    {
+        "img": "img-tec/js.png",
+        "title": "JavaScript"
+    },
+    {
+        "img": "img-tec/node.png",
+        "title": "Node"
+    },
+    {
+        "img": "img-tec/react.png",
+        "title": "React"
+    },
+    {
+        "img": "img-tec/ts.png",
+        "title": "Typescript"
+    },
+    {
+        "img": "img-tec/git.png",
+        "title": "Git"
+    },
+    {
+        "img": "img-tec/css.png",
+        "title": "Css"
+    },
+    {
+        "img": "img-tec/html.png",
+        "title": "Html"
+    },
+    {
+        "img": "img-tec/sass.png",
+        "title": "Sass"
+    }
+]

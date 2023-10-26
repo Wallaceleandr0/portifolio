@@ -1,0 +1,34 @@
+.Technologies {
+  margin-top: 60px;
+}
+.Technologies h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.Technologies .Technologies-img {
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 700px;
+  flex: 1 1 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.Technologies .Technologies-img div {
+  position: relative;
+  transition: transform 0.5s ease;
+  height: auto;
+  cursor: pointer;
+}
+.Technologies .Technologies-img div:hover {
+  transform: translate(0, -10px);
+}
+.Technologies .Technologies-img p {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Technologies .Technologies-img img {
+  width: 100px;
+  float: right;
+}/*# sourceMappingURL=Technologies.css.map */
