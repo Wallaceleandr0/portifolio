@@ -16,6 +16,9 @@ font-family: 'Raleway', sans-serif; */
     min-height: 560px;
   }
 }
+.Banner #logo-me {
+  box-shadow: 2px 3px 42px rgba(0, 191, 255, 0.52);
+}
 .Banner img {
   max-width: 100%;
   margin: 60px auto 0 auto;
@@ -67,4 +70,16 @@ font-family: 'Raleway', sans-serif; */
 .Banner .Banner-box-img #react {
   animation: App-logo-spin infinite 20s linear;
   width: 80px;
+}
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+.Banner .Banner-box-img #node-logo {
+  position: relative;
+  animation: floatUpDown 3s ease-in-out infinite;
 }

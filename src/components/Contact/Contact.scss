@@ -1,0 +1,27 @@
+.Contact {
+    padding-top: 70px;
+    h2 {
+        font-size: 35px;
+    }
+    &-list {
+        max-width: 800px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 10px;
+        div {
+            margin: 0 auto;
+            :hover {
+                transform: scale(1.09);
+            }
+        }
+        img {
+            width: 120px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}

@@ -11,6 +11,9 @@
     @media(max-width: 520px) {
         min-height: 560px;
     }
+    #logo-me {
+        box-shadow: 2px 3px 42px rgba(0, 191, 255, 0.52);
+    }
     img {
         max-width: 100%;
         margin: 60px auto 0 auto;
@@ -56,6 +59,20 @@
         #react {
             animation: App-logo-spin infinite 20s linear;
             width: 80px;
+        }
+        
+        @keyframes floatUpDown {
+            0%, 100% {
+              transform: translateY(0);
+            }
+            50% {
+              transform: translateY(-8px);
+            }
+          }
+
+        #node-logo {
+            position: relative;
+            animation: floatUpDown 3s ease-in-out infinite;
         }
     }
 }

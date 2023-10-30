@@ -3,4 +3,25 @@
 .Main {
     background-color: $bg-color;
     color: #fff;
+    max-width: 4000px;
+    footer {
+        a {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            color: #fff;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            :hover {
+                transform: scale(1.04);
+            }
+        }
+        img {
+            width: 20px;
+            color: #fff;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+    }
 }

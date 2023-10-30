@@ -1,7 +1,7 @@
 @import '../variables.scss';
 
 .Projects {
-    padding-bottom: 60px;
+    padding-top: 70px;
     h2 {
         padding-top: 30px;
         font-size: 35px;
@@ -21,6 +21,9 @@
         flex-wrap: wrap;
         margin: 0 auto;
         gap: 15px;
+        :hover {
+            transform: scale(1.03);
+        }
         &-project {
             border-radius: 5px;
             width: 350px;
@@ -34,7 +37,7 @@
                 background-color: transparent;
             }
             &-bg-black {
-                background-color: rgba(0, 0, 0, 0.426);
+                background-color: rgba(0, 0, 0, 0.075);
                 height: 100%;
                 width: 100%;
                 cursor: pointer;

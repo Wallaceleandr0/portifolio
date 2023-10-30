@@ -13,17 +13,17 @@ function Projects() {
   },[])
 
   return (
-    <div className='Projects'>
+    <section className='Projects'id='project'>
       <div className="Projects-line"></div>
       <h2>Meus Projetos</h2>
       <section className="Projects-container">
           {infoProject.map((item, index) => (
-            <a key={index} className="Projects-container-project" style={{backgroundImage: `url(${item.img})`}}>
+            <a href={item.link} target='_blank' key={index} className="Projects-container-project" style={{backgroundImage: `url(${item.img})`}}>
               <div className="Projects-container-project-bg-black"></div>
             </a>
           ))}
       </section>  
-    </div>
+    </section>
   )
 }
 

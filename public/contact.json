@@ -1,0 +1,23 @@
+
+[
+    {
+        "title": "LinkedIn",
+        "img": "/media-social/linkedin.png",
+        "url": "https://youtube.com"
+    },
+    {
+        "title": "Github",
+        "img": "/media-social/github.png",
+        "url": "https://github.com/Wallaceleandr0"
+    },
+    {
+        "title": "WhatsApp",
+        "img": "/media-social/whatsapp.png",
+        "url": "https://wa.me/5521976962190"
+    },
+    {
+        "title": "Currículo",
+        "img": "/media-social/pdf.png",
+        "url": "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy83Y2E5NTE2YzhmMGM1M2UxL0VlRlRESTlzVWFrZ2dIelRBQUFBQUFBQjFtZ3NFTXNLclNBUHpoazN3N243WXc&cid=7CA9516C8F0C53E1&id=7CA9516C8F0C53E1%21211&parId=root&o=OneUp"
+    }
+]

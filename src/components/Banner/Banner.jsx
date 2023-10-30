@@ -4,12 +4,12 @@ import "./Banner.css"
 function Banner() {
   return (
     <div className='Banner'>
-      <img src="https://d30br0w1c4bdt2.cloudfront.net/wp-content/uploads/2015/10/placeholder.jpg" alt="foto-wallace" />
+      <img src="wallace-logo.jpg" alt="foto-wallace" id='logo-me' />
       <h3><span>&lt;</span>WallaceLeandro <span>/&gt;</span></h3>
       <p>Software Enginner | Fullstack</p>
       <div className="Banner-box-img">
-        <img src="logo192.png" id='react' alt="" />
-        <img src="node.png" alt="" />
+        <img src="logo192.png" id='react' />
+        <img src="node.png" id='node-logo' />
       </div>
     </div>
   )

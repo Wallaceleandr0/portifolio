@@ -44,9 +44,9 @@ function Header() {
             </div>
         </div>
         <ul className="Header-ul" style={{display: visibilityList ? "flex" : "none"}}>
-            <li><a href="#" onClick={triggerFunction}>about</a></li>
-            <li><a href="#" onClick={triggerFunction}>contact</a></li>
-            <li><a href="#" onClick={triggerFunction}>projects</a></li>
+            <li><a href="#about" onClick={triggerFunction}>sobre</a></li>
+            <li><a href="#contact" onClick={triggerFunction}>contato</a></li>
+            <li><a href="#project" onClick={triggerFunction}>projetos</a></li>
         </ul>
     </header>
   )
